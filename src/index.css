@@ -1,0 +1,43 @@
+.body {
+    background-color: #D6E5B2;
+}
+.home--box {
+    padding-top: 20px;
+}
+
+/* Nav */
+ .bg-color{
+    background-color: #EA5D7D;
+}
+.nav-link {
+    color: #D6E5B2 !important;
+}
+/* Image */
+.image{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* Card */
+.card-header{
+    letter-spacing: 5px;
+    font-size:larger;
+    font-weight: bold;
+    background-color: #bcd581!important;
+    
+}
+.card-body{
+    background-color: #bcd581;
+    padding-left: 20px;
+    
+}
+
+.box{
+margin-top: 150px;
+padding-right: 200px;
+padding-left: 100px;
+}
+
+/* Website Links */
