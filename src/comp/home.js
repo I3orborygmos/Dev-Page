@@ -13,12 +13,12 @@ export default function Home () {
                 <Card.Body>
                 <Card.Text>
             Hello and Welcome to my page. I'm <strong>Connor McDonald</strong> {'(yes like the hamburger but without the money) '} 
-            I'm a Film Enthusist, Award Wining Writer, Museum goer, Boardgame player 
-            and above all a Web Developer.
-            Afer all I made this Website. Here you will find my various projects I've been working on, 
-            as well as a link to my GitHub that demonstrates the code I used for not only this Website but 
+            I'm a film enthusist, award-wining writer, museum goer, boardgame player 
+            and above all, a web developer.
+            Afer all, I made this Website. Here you will find various projects I've been working on, 
+            as well as a link to my GitHub that demonstrates the code I used for this Website and 
             my other projects too.
-            My Resume and Linkden are both accessable so feel free to check them out with a download for my resume.
+            My Resume and Linkden are both accessible so feel free to check them out and a download my resume.
                 </Card.Text>
                 </Card.Body>
             </Card>
