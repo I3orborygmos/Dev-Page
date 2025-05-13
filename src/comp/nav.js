@@ -18,7 +18,7 @@ export default function MyNav () {
         <Nav.Link as ={Link} to= "/websites">Websites</Nav.Link>
         <Nav.Link as ={Link} to= "/resume">Resume</Nav.Link>
         <Nav.Link a href='https://github.com/I3orborygmos' target='_blank'>GitHub</Nav.Link>
-        <Nav.Link a href='https://www.linkedin.com/in/itsmeconnor/' target='_blank'>Linkden</Nav.Link>
+        <Nav.Link a href='https://www.linkedin.com/in/itsmeconnor/' target='_blank'>Linkeden</Nav.Link>
     </Nav>
 </Navbar.Collapse>
 </Navbar>
