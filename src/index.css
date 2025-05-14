@@ -41,12 +41,12 @@ padding-left: 100px;
 }
    
  @media  (max-width: 600px) {
-    .App{
+    .app{
     width: 100%;
     min-height: 100vh;
     height: auto;
-    font-size: 1.2em;
-    padding: 10px;
+    font-size: 1.5em; /* Increased from 1.2em to 1.5em */
+    padding: 20px;     /* Increased padding for better spacing */
     }
     .box {
     margin-top: 40px;
@@ -54,7 +54,7 @@ padding-left: 100px;
     padding-left: 10px;
     }
     .image {
-    width: 90vw;
+    width: 95vw;
     height: auto;
     float: none;
     margin: 0 auto 20px auto;
@@ -62,11 +62,11 @@ padding-left: 100px;
     }
     .card-header,
     .card-body {
-    font-size: 1.1em;
+    font-size: 1.3em; /* Increased font size for card content */
     padding-left: 10px;
     padding-right: 10px;
     }
     .nav-link {
-    font-size: 1.1em;
+    font-size: 1.3em; /* Increased font size for nav links */
     }
   }
