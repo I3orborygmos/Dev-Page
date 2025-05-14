@@ -73,18 +73,18 @@ padding-left: 100px;
 
 @media (max-width: 480px) {
   .app {
-    font-size: 2em;
-    padding: 24px;
+    font-size: 2em !important;
+    padding: 24px !important;
   }
   .card-header,
   .card-body {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }
   .nav-link {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }
   .image {
-    width: 98vw;
-    max-width: 400px;
+    width: 98vw !important;
+    max-width: 400px !important;
   }
 }
