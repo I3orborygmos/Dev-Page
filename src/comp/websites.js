@@ -16,7 +16,7 @@ export default function Websites() {
                 <Card.Link  href="https://symphonious-horse-dc17c7.netlify.app/"  target='_blank'>Online Business Card</Card.Link>
                 <Card.Link  href="https://splendid-taiyaki-60c048.netlify.app"  target='_blank'>My Travel Journal</Card.Link>
                 <Card.Link  href="https://delicate-brigadeiros-f7b2d9.netlify.app/"  target='_blank'>Solve the Riddle</Card.Link>
-                 <Card.Link  href="https://wacdonaldspage.netlify.app/"  target='_blank'>WacDonald's</Card.Link> 
+                <Card.Link  href="https://wacdonaldspage.netlify.app/"  target='_blank'>WacDonald's</Card.Link> 
                 </Stack>
                 </Card.Body>
         </Card> 

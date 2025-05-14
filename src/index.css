@@ -41,3 +41,9 @@ padding-left: 100px;
 }
 
 /* Website Links */
+
+@media (max-width: 768px) {
+    .app {
+       width: 100%;
+    }
+}

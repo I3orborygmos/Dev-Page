@@ -3,7 +3,7 @@ import MyNav from "./comp/nav";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header>
        <MyNav/>
       </header>
