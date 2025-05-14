@@ -40,10 +40,33 @@ padding-right: 200px;
 padding-left: 100px;
 }
    
- @media only screen and (max-width: 600px) {
-    .app{
+ @media  (max-width: 600px) {
+    .App{
     width: 100%;
-    min-height: 50vh;
-    height: 50vh;
+    min-height: 100vh;
+    height: auto;
+    font-size: 1.2em;
+    padding: 10px;
+    }
+    .box {
+    margin-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+    .image {
+    width: 90vw;
+    height: auto;
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+    }
+    .card-header,
+    .card-body {
+    font-size: 1.1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .nav-link {
+    font-size: 1.1em;
     }
   }
