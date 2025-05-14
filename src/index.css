@@ -70,3 +70,21 @@ padding-left: 100px;
     font-size: 1.3em; /* Increased font size for nav links */
     }
   }
+
+@media (max-width: 480px) {
+  .app {
+    font-size: 2em;
+    padding: 24px;
+  }
+  .card-header,
+  .card-body {
+    font-size: 1.5em;
+  }
+  .nav-link {
+    font-size: 1.5em;
+  }
+  .image {
+    width: 98vw;
+    max-width: 400px;
+  }
+}
