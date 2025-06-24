@@ -10,7 +10,7 @@
     background-color: #EA5D7D;
 }
 .nav-link {
-    color: #D6E5B2 !important;
+    color: #D6E5B2;
 }
 /* Image */
 .image{
@@ -25,7 +25,7 @@
     letter-spacing: 5px;
     font-size:larger;
     font-weight: bold;
-    background-color: #bcd581!important;
+    background-color: #bcd581;
     
 }
 .card-body{
@@ -40,7 +40,7 @@ padding-right: 200px;
 padding-left: 100px;
 }
    
- @media  (max-width: 768px) {
+ @media  (max-width: 480px) {
     .app{
     width: 100%;
     min-height: 100vh;
@@ -70,21 +70,3 @@ padding-left: 100px;
     font-size: 1.3em; /* Increased font size for nav links */
     }
   }
-
-@media (max-width: 480px) {
-  .app {
-    font-size: 2em !important;
-    padding: 24px !important;
-  }
-  .card-header,
-  .card-body {
-    font-size: 1.5em !important;
-  }
-  .nav-link {
-    font-size: 1.5em !important;
-  }
-  .image {
-    width: 98vw !important;
-    max-width: 400px !important;
-  }
-}
