@@ -1,3 +1,9 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .body {
     background-color: #D6E5B2;
 }
@@ -10,7 +16,7 @@
     background-color: #EA5D7D;
 }
 .nav-link {
-    color: #D6E5B2;
+    color: #D6E5B2 !important;
 }
 /* Image */
 .image{
@@ -21,6 +27,9 @@
     margin-right: 15px;
 }
 /* Card */
+.card {
+    width: 50%
+}
 .card-header{
     letter-spacing: 5px;
     font-size:larger;
@@ -30,43 +39,49 @@
 }
 .card-body{
     background-color: #bcd581;
-    padding-left: 20px;
+    padding: 20px;
     
 }
-
+.card-link {
+  display: block;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+}
 .box{
 margin-top: 150px;
 padding-right: 200px;
 padding-left: 100px;
 }
-   
- @media  (max-width: 480px) {
-    .app{
+
+
+@media (max-width: 600px) {
+ .image {
     width: 100%;
-    min-height: 100vh;
     height: auto;
-    font-size: 1.5em; /* Increased from 1.2em to 1.5em */
-    padding: 20px;     /* Increased padding for better spacing */
-    }
-    .box {
-    margin-top: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
-    }
-    .image {
-    width: 95vw;
-    height: auto;
-    float: none;
-    margin: 0 auto 20px auto;
+    float: none; 
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ .card-link{
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 8px 8px;
     display: block;
-    }
-    .card-header,
-    .card-body {
-    font-size: 1.3em; /* Increased font size for card content */
-    padding-left: 10px;
-    padding-right: 10px;
-    }
-    .nav-link {
-    font-size: 1.3em; /* Increased font size for nav links */
-    }
-  }
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+}
+
+}

@@ -1,10 +1,20 @@
-import React from 'react';
-import MyResume from './Connor McDonald_Resume.pdf'
-
 export default function Resume() {
-    return(
-        <div style={{ width: '100%', height: '100vh', overflow: 'hidden' }}>
-            <embed src={MyResume} type='application/pdf'width='100%' height="100%" style={{ objectFit: 'contain' }}/>
+    const isMobile = window.innerWidth <= 600;
+
+    return (
+        <div style={{ width: '100%', height: '100vh' }}>
+            <p style={{ textAlign: 'center', marginTop: '1em' }}>
+                If the PDF does not display, <a href="/Connor McDonald_Resume.pdf" target="_blank" rel="noopener noreferrer">click here to view or download the resume.</a>
+            </p>
+            {!isMobile && (
+                <embed
+                    src="/Connor McDonald_Resume.pdf"
+                    type="application/pdf"
+                    width="100%"
+                    height="100%"
+                    style={{ minHeight: 500 }}
+                />
+            )}
         </div>
-    )
+    );
 }

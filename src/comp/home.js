@@ -8,7 +8,7 @@ export default function Home () {
     return(
         <div className="home--box">
             <Image src={MyImage} className="rounded image" />
-              <Card style={{ width: '50%' }}>
+              <Card >
                 <Card.Header>About Me</Card.Header>
                 <Card.Body>
                 <Card.Text>
