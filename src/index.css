@@ -45,7 +45,6 @@ html, body, #root {
 .card-link {
   display: block;
   text-align: left;
-  margin-bottom: 12px;
   letter-spacing: 1px;
   padding: 8px 12px;
 }
@@ -58,11 +57,12 @@ padding-left: 100px;
 
 @media (max-width: 600px) {
  .image {
-    width: 100%;
+    width: 90%;
     height: auto;
     float: none; 
     margin-left: 15px;
     margin-right: 15px;
+    padding-bottom: 20px;
  }
  .card-link{
     font-size: larger;
