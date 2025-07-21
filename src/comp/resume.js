@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div style={{ width: '100%', height: '100vh' }}>
             <p style={{ textAlign: 'center', marginTop: '1em' }}>
-                If the PDF does not display, <a href="/Connor McDonald_Resume.pdf" target="_blank" rel="noopener noreferrer">click here to view or download the resume.</a>
+                If the PDF does not display, <a href="/Connor McDonald_resume_.pdf" target="_blank" rel="noopener noreferrer">click here to view or download the resume.</a>
             </p>
             {!isMobile && (
                 <embed
