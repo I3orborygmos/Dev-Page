@@ -21,6 +21,12 @@ export default function Home () {
             <p></p>
             I have a passion for creating clean, efficient, and user-friendly websites and applications.
             <p></p>
+            I code with Frontend languages such as <strong>HTML, CSS, JavaScript, React, Bootstrap, and more.</strong>
+            <p></p>
+            I design using <strong>Figma</strong> to bring my ideas to life.
+            <p></p>
+            Curently solo deveoping  my own Mobile App using <strong>React Native</strong>.
+            <p></p>
             Feel free to explore my portfolio and get in touch if you'd like to collaborate on a project or just say hi!
                 </Card.Text>
                 </Card.Body>
